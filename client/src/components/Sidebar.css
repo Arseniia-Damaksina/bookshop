@@ -1,0 +1,36 @@
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12%;
+  height: 100%;
+  margin-top: 1.5%;
+}
+
+.sidebarUl {
+  list-style: none;
+  cursor: pointer;
+}
+
+.sidebarUl li {
+  margin: 0 10px 5px 10px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 24px;
+}
+
+.shelvesUl {
+  margin-left: 25px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.shelvesUl li {
+  margin: 0 10px 5px 10px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 20px;
+}

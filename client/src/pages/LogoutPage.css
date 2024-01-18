@@ -1,0 +1,31 @@
+.logoutContainer, .logout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.logoutContainer h1,
+.logoutContainer h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.logoutContainer p {
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+}
+
+.logoutContainer button {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  background-color: #b61515;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10px;
+}

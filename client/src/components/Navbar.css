@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  width: 100%;
+  font-size: 26px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}

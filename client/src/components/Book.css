@@ -1,0 +1,48 @@
+.book-container {
+  margin: 20px;
+  width: 22%;
+}
+
+.book-container img {
+  width: 350px;
+  height: 450px;
+  border: 1px solid gray;
+  border-radius: 9px;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: rgb(182, 21, 21);
+}
+
+.book-container  button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 9px;
+  background-color: rgb(182, 21, 21);
+  font-size: 16px;
+  color: wheat;
+  font-weight: bold;
+  width: 40%;
+}
+
+.iconsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
